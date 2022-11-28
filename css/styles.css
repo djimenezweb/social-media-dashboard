@@ -1,0 +1,213 @@
+/* 
+colors: 
+  body background: #2a2b37
+  card background: #252a41
+  green: #1db489
+  red: #dc414c
+  facebook-color: #198ff5
+  twitter-color: #1ca0f2
+  instagram-color: #fdc468
+  youtube-color: #c4032a
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e202a;
+  min-height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+img {
+  max-width: 900px;
+}
+
+.exercise {
+  position: relative;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Clases comunes tarjetas grandes y minis */
+
+.margin0-absolute {
+  margin: 0;
+  position: absolute;
+}
+
+.positive {
+  color: #1db489;
+}
+
+.negative {
+  color: #dc414c;
+}
+
+/* Clases tarjetas grandes */
+
+.dashboard {
+  background-color: #222238;
+  width: 870px;
+  height: 160px;
+  border-radius: 0 0 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.header {
+  font-size: 24px;
+  position: absolute;
+  top: 14px;
+  left: 100px;
+}
+
+.total-followers {
+  font-size: 12px;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.card {
+  background-color: #252a41;
+  border-top: 2px solid;
+  width: 157px;
+  height: 157px;
+  border-radius: 4px;
+  position: absolute;
+  top: 120px;
+}
+
+.logo-card {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  width: 14px;
+}
+
+.card-facebook {
+  border-top-color: #198ff5;
+  left: 110px;
+}
+
+.card-twitter {
+  border-top-color: #1ca0f2;
+  left: 285px;
+}
+
+.card-instagram {
+  border-top-color: #fdc468;
+  left: 460px;
+}
+
+.card-youtube {
+  border-top-color: #c4032a;
+  left: 635px;
+}
+
+.user {
+  font-size: 10px;
+  top: 20px;
+  left: 65px;
+}
+
+.numberfollowers {
+  font-size: 36px;
+  top: 50px;
+  left: 40px;
+}
+
+.followers {
+  font-size: 12px;
+  top: 100px;
+  left: 45px;
+}
+
+.variance-icon {
+  position: absolute;
+  bottom: 12px;
+  left: 50px;
+}
+
+.variance {
+  font-size: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 64px;
+}
+
+/* Clases tarjetas mini */
+
+.container-minicards {
+  position: absolute;
+  top: 280px;
+  left: 110px;
+}
+
+.overview {
+  font-size: 16px;
+}
+
+.minicard {
+  background-color: #252a41;
+  width: 157px;
+  height: 78px;
+  border-radius: 4px;
+  position: absolute;
+  top: 45px;
+}
+
+.logo-minicard {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 14px;
+}
+
+.minicard-text {
+  font-size: 12px;
+  top: 10px;
+  left: 12px;
+}
+
+.minicard-number {
+  font-size: 32px;
+  bottom: 8px;
+  left: 12px;
+}
+
+.minicard-variance-icon {
+  position: absolute;
+  bottom: 12px;
+  right: 40px;
+}
+
+.minicard-variance {
+  font-size: 10px;
+  margin: 0;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.minicard-facebook {
+  left: 0;
+}
+
+.minicard-twitter {
+  left: 175px;
+}
+
+.minicard-instagram {
+  left: 350px;
+}
+
+.minicard-youtube {
+  left: 525px;
+}
